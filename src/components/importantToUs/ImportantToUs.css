@@ -1,0 +1,36 @@
+.importantToUs {
+    margin-top: 130px;
+}
+
+.importantToUs h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+}
+
+.importantToUs__table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.importantToUs__table-1 {
+    margin-top: 92px
+}
+
+.importantToUs__table-1 img {
+    margin-top: 37px;
+}
+
+.importantToUs__table-1 h3 {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+}
+
+.importantToUs__table-1 p {
+    width: 305px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+}

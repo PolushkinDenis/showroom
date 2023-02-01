@@ -1,0 +1,37 @@
+.team {
+    margin-top: 130px;
+}
+
+.team h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    margin-bottom: 92px;
+}
+
+.team__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team__about {
+    max-width: 255px;
+}
+
+.team__about-header {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+}
+
+.team__about p {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+}
+
+.team__about a {
+    text-decoration: none;
+    color: #6E9C9F;
+}
