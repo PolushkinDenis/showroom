@@ -13,7 +13,7 @@ const Collection = () => {
             newArrOfView.shift()
             newArrOfView.push(collections[newArrOfView[1].id])
             setView(newArrOfView)
-            console.log(newArrOfView)
+            // console.log(newArrOfView)
         }
         if (e === 0 && view[0].id !== 1) {
             let newArrOfView = [...view]
@@ -21,7 +21,7 @@ const Collection = () => {
             console.log(newArrOfView)
             newArrOfView.unshift(collections[newArrOfView[0].id - 2])
             setView(newArrOfView)
-            console.log(newArrOfView)
+            // console.log(newArrOfView)
         }
 
     }
@@ -34,10 +34,10 @@ const Collection = () => {
         setView(arrOfView)
     }, [])
 
-    console.log(view)
+    // console.log(view)
 
     return (
-        <div className="collection content">
+        <div className="collection content__collection">
             <h2>Новая коллекция</h2>
             <div className="collection__carousel">
                 {view.map(product => (

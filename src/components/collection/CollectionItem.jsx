@@ -5,9 +5,9 @@ const CollectionItem = (products) => {
 
     const { product, onClick, first, end } = { ...products }
 
-    console.log(product)
-    console.log(first)
-    console.log(end)
+    // console.log(product)
+    // console.log(first)
+    // console.log(end)
 
     const prevImage = () => {
         onClick(0)

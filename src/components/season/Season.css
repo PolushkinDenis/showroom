@@ -6,6 +6,7 @@
 
 .season__content {
     min-width: 563px;
+    margin-top: 150px;
 }
 
 .season__content h1 {
@@ -39,6 +40,7 @@
     color: white;
     border: none;
 }
+
 .season__content-buttons button:hover {
     background: #509498;
     cursor: pointer;
@@ -57,20 +59,18 @@
     /* z-index: -10;  */
 }
 
-.season__images::before {
+/* .season__images::before {
     content: '';
     position: absolute;
-    /* display: block; */
     height: 826px;
     width: 1000%;
     background-color: #F1EADC;
     z-index: -99;
-
-}
+} */
 
 .season__images img {
     position: absolute;
-    
+
 }
 
 .season__images-left {
@@ -81,13 +81,103 @@
 }
 
 .season__images-main {
-margin-bottom: 100px;
-margin-top: 120px;
-margin-left: 104px;
-z-index: -2;
+    margin-bottom: 100px;
+    margin-top: 120px;
+    margin-left: 104px;
+    z-index: -2;
 }
+
 .season__images-right {
     margin-top: 230px;
     margin-left: 430px;
     z-index: -1;
 }
+
+@media (max-width: 1300px) {
+    .season__images-main {
+        margin-left: 0px;
+    }
+
+    .season__images-right {
+        margin-left: 325px;
+    }
+
+    .season__images-left {
+        margin-left: -100px;
+    }
+}
+
+@media (max-width: 1105px) {
+    .season {
+        display: flex;
+        flex-direction: column;
+    }
+    .season__content {
+        margin-top: 0px;
+    }
+
+    .season__images {
+        margin-top: -780px;
+        margin-left: 50px;
+    }
+
+    .season__images-main {
+        margin-left: 90px;
+        width: 50%;
+    }
+
+    .season__images-right {
+        margin-left: 325px;
+    }
+
+    .season__images-left {
+        margin-left: -70px;
+        margin-top: 245px;
+    }
+
+    .season__content-text {
+        margin-top: 490px;
+    }
+
+}
+
+@media (max-width: 630px) {
+    .season__content {
+        min-width: 100%;
+        margin: 0px 5px;
+    }
+    .season__content h1 {
+        font-size: 40px;
+    }
+    .season__images {
+        margin-top: -630px
+    }
+    .season__images-left {
+        width: 30%;
+        margin-left: 5px;
+    }
+    .season__images-right {
+        width: 30%;
+        margin-left: 50%;
+    }
+    .season__images-main {
+        margin-left: 10%;
+    }
+    .season__content-text {
+        width: auto;
+        text-align: center;
+        margin-top: 330px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 629px) { 
+    .season__content {
+        margin: 0px 5px;
+    }
+    .season__content-text {
+        margin-top: 500px;
+    }
+    .season__images {
+        margin-top: -770px;
+    }
+ }

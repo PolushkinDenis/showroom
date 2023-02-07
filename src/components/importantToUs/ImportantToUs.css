@@ -34,3 +34,22 @@
     font-size: 17px;
     line-height: 140%;
 }
+
+@media (max-width: 1140px) {
+    .importantToUs {
+        padding: 10px;
+    }
+}
+@media (max-width: 1105px) {
+    .importantToUs h2 {
+        text-align: center;
+    }
+    .importantToUs__table {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .importantToUs__table-1 {
+        margin-top: 0px;
+    }
+}

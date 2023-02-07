@@ -1,0 +1,133 @@
+.shop {
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.shop__header h1 {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    margin: 100px 0 26px;
+
+}
+.shop__sort {
+    margin: 200px 0 92px;
+}
+.btn {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 19px 65px;
+    gap: 10px;
+    border: 1px solid #000000;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.btn_active {
+    background-color: #000000;
+    color: white;
+    margin-bottom: 10px;
+    padding: 19px 65px;
+    gap: 10px;
+    border: 1px solid #000000;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+.shop__sort button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.shop__view_1 {
+    margin-bottom: 65px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #808080;
+}
+
+.shop__view_2 {
+    margin-top: 65px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #808080;
+}
+
+.shop__page {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.page {
+    background-color: white;
+    padding: 9px 16px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.page:hover {
+    background-color: #c2c2c2;
+}
+
+.shop__page button:not(:last-child) {
+    margin-right: 14px;
+}
+
+.page__active {
+    background-color: #000000;
+    color: white;
+    padding: 9px 16px;
+    border: 1px solid #000000;
+
+}
+
+
+.shop__collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: stretch;
+}
+
+@media (max-width: 1120px) {
+    .shop {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .btn {
+        width: 200px;
+    }
+    .btn_active {
+        width: 200px;
+    }
+    .shop__view_1 {
+        text-align: center; 
+    }
+    .shop__view_2 {
+        text-align: center; 
+    }
+    .shop__collection {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width: 380px) {
+    .thing__next img {
+        width: 95%;
+    }
+}

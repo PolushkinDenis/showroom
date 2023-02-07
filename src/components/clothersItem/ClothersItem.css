@@ -1,0 +1,213 @@
+.clothersItem {
+    max-width: 1100px;
+    margin: 0px auto;
+
+}
+
+.clothersItem h1 {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    margin: 100px 0 26px;
+}
+
+.clothersItem__links {
+    display: flex
+}
+
+/* .clothersItem__links pre {
+    margin: 0;
+} */
+
+.clothersItem__links-p {
+    display: flex;
+    margin: 0;
+}
+
+.clothersItem__links-p p {
+    margin: 0;
+}
+
+.link__main {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+
+.link__secondary {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #919191;
+}
+
+.clothersItem__content {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.clothersItem__content-image img {
+    width: 536px;
+    height: 729px;
+}
+
+.clothersItem__content-settings {
+    margin-left: 74px;
+}
+
+.settings__price {
+    display: flex;
+    align-items: center;
+}
+
+.settings__price-main {
+    margin: 0px 29px 0px 0px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #998E78;
+}
+
+.settings__price-old {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    text-decoration-line: line-through;
+    color: #9C9C9C;
+}
+
+.select__size {
+    margin: 59px 0px 34px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+
+.size {
+    background-color: white;
+    width: 41px;
+    height: 41px;
+    padding: 9xp 13px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.size:not(:last-child) {
+    margin-right: 14px;
+}
+
+.size:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.select__color {
+    margin: 59px 0px 34px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+
+.selected-size {
+    background-color: #000000;
+    color: white;
+}
+
+.colors {
+    display: flex;
+}
+
+.color {
+    width: 41px;
+    height: 41px;
+    border-radius: 100px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.color:hover {
+    border: 1px solid black;
+}
+
+.selected-color {
+    border: 1px solid #000000;
+
+}
+
+.color:not(:last-child) {
+    margin-right: 14px;
+}
+
+.addBasket {
+    display: flex;
+    margin-top: 79px;
+    height: 68px;
+}
+
+.input__count {
+    width: 68px;
+    max-height: 68px;
+    border: 1px solid #AFAFAF;
+    text-align: center;
+    color: black;
+    margin-right: 11px;
+}
+
+.btn__add {
+    align-items: center;
+    padding: 22px 50px;
+    gap: 10px;
+    width: 268px;
+    height: 68px;
+    background: #6E9C9F;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+@media (max-width: 1130px) {
+    .clothersItem {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .clothersItem__content-image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 810px) {
+    .clothersItem__content {
+        flex-direction: column;
+    }
+
+    .clothersItem__content-settings {
+        display: flex;
+        margin-left: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn__add {
+        width: 250px;
+        font-size: 15px;
+    }
+}

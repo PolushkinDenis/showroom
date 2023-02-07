@@ -87,3 +87,27 @@
     background: #6E9C9F;
     cursor: pointer;
 }
+
+@media (max-width: 1140px) {
+    .collection {
+        padding: 10px;
+    }
+    .colletionItem__next img {
+        width: 100%;
+        height: auto;
+    }
+    .colletionItem:not(:last-child) {
+        margin-right: 5px;
+    }
+    .colletionItem__next {
+        height: auto;
+    }
+}
+@media (max-width: 480px) {
+    .colletionItem__title {
+        font-size: 14px;
+    }
+    .collection h2 {
+        text-align: center;
+    }
+}

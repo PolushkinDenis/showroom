@@ -116,3 +116,42 @@
 .links__web img:not(:last-child) {
    margin-right: 10px;
 }
+
+@media (max-width: 1140px) {
+    .footer__navigation {
+        margin: 0px 5px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer {
+        height: auto;
+    }
+    .footer__navigation {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .footer__home {
+        align-items: center;
+    }
+    .footer__additionally-documents{
+        align-items: center;
+    }
+    .footer__additionally-documents {
+        margin-top: 30px
+    }
+    .footer__links {
+        margin-top: 30px;
+    }
+    .footer__links a:not(:last-child) {
+        margin-right: 10px;
+    }
+    .footer__additionally-clothes {
+        margin-top: 10px;
+    }
+    .footer__phone {
+        margin-top: 30px;
+        align-items: center;
+    }
+}
