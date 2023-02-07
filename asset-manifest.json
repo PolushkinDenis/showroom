@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/showroom/static/css/main.a3ebafde.css",
-    "main.js": "/showroom/static/js/main.ae92f3ee.js",
+    "main.css": "/showroom/static/css/main.ca43d00d.css",
+    "main.js": "/showroom/static/js/main.4ef51525.js",
     "static/js/787.7bdeec02.chunk.js": "/showroom/static/js/787.7bdeec02.chunk.js",
     "static/media/season-main.png": "/showroom/static/media/season-main.97ebd39953e1fc275909.png",
     "static/media/team.png": "/showroom/static/media/team.454c203aee3cf9752e1e.png",
+    "static/media/first.png": "/showroom/static/media/first.0525a509994fd2cf9bab.png",
+    "static/media/second.png": "/showroom/static/media/second.cac56b8eb49e522f80f2.png",
     "static/media/2.png": "/showroom/static/media/2.7af94d5bb6d031ab2e61.png",
     "static/media/1.png": "/showroom/static/media/1.d54ce6683c83f2320f0d.png",
     "static/media/3.png": "/showroom/static/media/3.785a3da949b525fa35c7.png",
     "static/media/season-left.png": "/showroom/static/media/season-left.0cce305c4d6d1dc50428.png",
     "static/media/season-right.png": "/showroom/static/media/season-right.13fc599ce0fc9966d04e.png",
     "index.html": "/showroom/index.html",
-    "main.a3ebafde.css.map": "/showroom/static/css/main.a3ebafde.css.map",
-    "main.ae92f3ee.js.map": "/showroom/static/js/main.ae92f3ee.js.map",
+    "main.ca43d00d.css.map": "/showroom/static/css/main.ca43d00d.css.map",
+    "main.4ef51525.js.map": "/showroom/static/js/main.4ef51525.js.map",
     "787.7bdeec02.chunk.js.map": "/showroom/static/js/787.7bdeec02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3ebafde.css",
-    "static/js/main.ae92f3ee.js"
+    "static/css/main.ca43d00d.css",
+    "static/js/main.4ef51525.js"
   ]
 }
