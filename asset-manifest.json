@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/showroom/static/css/main.ca43d00d.css",
-    "main.js": "/showroom/static/js/main.4ef51525.js",
+    "main.js": "/showroom/static/js/main.04cbf522.js",
     "static/js/787.7bdeec02.chunk.js": "/showroom/static/js/787.7bdeec02.chunk.js",
     "static/media/season-main.png": "/showroom/static/media/season-main.97ebd39953e1fc275909.png",
     "static/media/team.png": "/showroom/static/media/team.454c203aee3cf9752e1e.png",
@@ -14,11 +14,11 @@
     "static/media/season-right.png": "/showroom/static/media/season-right.13fc599ce0fc9966d04e.png",
     "index.html": "/showroom/index.html",
     "main.ca43d00d.css.map": "/showroom/static/css/main.ca43d00d.css.map",
-    "main.4ef51525.js.map": "/showroom/static/js/main.4ef51525.js.map",
+    "main.04cbf522.js.map": "/showroom/static/js/main.04cbf522.js.map",
     "787.7bdeec02.chunk.js.map": "/showroom/static/js/787.7bdeec02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca43d00d.css",
-    "static/js/main.4ef51525.js"
+    "static/js/main.04cbf522.js"
   ]
 }
