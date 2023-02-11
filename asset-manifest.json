@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/showroom/static/css/main.a22ee2b8.css",
-    "main.js": "/showroom/static/js/main.a77dc734.js",
+    "main.css": "/showroom/static/css/main.0e9669bd.css",
+    "main.js": "/showroom/static/js/main.401775c4.js",
     "static/js/787.7bdeec02.chunk.js": "/showroom/static/js/787.7bdeec02.chunk.js",
     "static/media/season-main.png": "/showroom/static/media/season-main.97ebd39953e1fc275909.png",
     "static/media/team.png": "/showroom/static/media/team.454c203aee3cf9752e1e.png",
@@ -13,12 +13,12 @@
     "static/media/season-left.png": "/showroom/static/media/season-left.0cce305c4d6d1dc50428.png",
     "static/media/season-right.png": "/showroom/static/media/season-right.13fc599ce0fc9966d04e.png",
     "index.html": "/showroom/index.html",
-    "main.a22ee2b8.css.map": "/showroom/static/css/main.a22ee2b8.css.map",
-    "main.a77dc734.js.map": "/showroom/static/js/main.a77dc734.js.map",
+    "main.0e9669bd.css.map": "/showroom/static/css/main.0e9669bd.css.map",
+    "main.401775c4.js.map": "/showroom/static/js/main.401775c4.js.map",
     "787.7bdeec02.chunk.js.map": "/showroom/static/js/787.7bdeec02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a22ee2b8.css",
-    "static/js/main.a77dc734.js"
+    "static/css/main.0e9669bd.css",
+    "static/js/main.401775c4.js"
   ]
 }
