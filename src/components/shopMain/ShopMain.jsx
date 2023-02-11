@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { collections } from '../../data/collections'
 import Thing from "./things/Thing";
 import './ShopMain.css'
+import PageName from "../pageName/PageName";
 
 const ShopMain = () => {
     const [viewClother, setViewClother] = useState([])
@@ -53,10 +54,7 @@ const ShopMain = () => {
 
     return (
         <div className="shop">
-            <div className="shop__header">
-                <h1>Магазин</h1>
-            </div>
-            <div className="shop__links">Главная — Магазин</div>
+            <PageName name={"Магазин"}/>
             <div className="shop__sort">
                 <button className={selectedType === "all" ? "btn_active" : "btn"} onClick={() => sorting("all")}>Все</button>
                 <button className={selectedType === "shirt" ? "btn_active" : "btn"} onClick={() => sorting("shirt")}>Футболки</button>

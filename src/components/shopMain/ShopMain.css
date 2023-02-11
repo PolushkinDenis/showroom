@@ -126,7 +126,7 @@
         justify-items: center;
     }
 }
-@media (max-width: 380px) {
+@media (max-width: 374px) {
     .thing__next img {
         width: 95%;
     }

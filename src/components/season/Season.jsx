@@ -3,8 +3,10 @@ import "./Season.css";
 import seasonMain from '../../images/season/season-main.png'
 import seasonRight from '../../images/season/season-right.png'
 import seasonLeft from '../../images/season/season-left.png'
+import { useNavigate } from "react-router-dom";
 
 const Season = () => {
+    const navige = useNavigate()
 
     return (
         <div className="season content">
@@ -17,7 +19,7 @@ const Season = () => {
                     </p>
                 </div>
                 <div className="season__content-buttons">
-                    <button>Открыть магазин</button>
+                    <button onClick={() => navige("/showroom/shop")}>Открыть магазин</button>
                 </div>
 
             </div>

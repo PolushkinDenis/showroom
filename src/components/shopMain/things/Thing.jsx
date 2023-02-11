@@ -5,7 +5,7 @@ import './Things.css'
 const Thing = ({ collection }) => {
 
     return (
-        <NavLink to={`/shop/${collection.id}`} state={collection} className="thing__card">
+        <NavLink to={`/showroom/shop/${collection.id}`} state={collection} className="thing__card">
             <div className="thing__next">
                 <img src={collection.img} alt={collection.title} ></img>
             </div>

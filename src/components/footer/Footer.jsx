@@ -17,29 +17,29 @@ const Footer = () => {
                     <div className="footer__home">
                         <div>
                             <img src={header_img} alt="WOMAZING"></img>
-                            <NavLink className="footer__title" to='/'>WOMAZING</NavLink>
+                            <NavLink className="footer__title" to='/showroom'>WOMAZING</NavLink>
                         </div>
                         <div className="footer__additionally-documents">
                             <p>© Все права защищены</p>
-                            <NavLink to="/">Политика конфиденциальности</NavLink>
-                            <NavLink to="/">Публичная оферта</NavLink>
+                            <NavLink to="/showroom">Политика конфиденциальности</NavLink>
+                            <NavLink to="/showroom">Публичная оферта</NavLink>
                         </div>
 
                     </div>
                     <div className="footer__links">
-                        <NavLink to='/main'>Главная</NavLink>
+                        <NavLink to='/showroom'>Главная</NavLink>
                         <div>
-                            <NavLink to='/shop'>Магазин</NavLink>
+                            <NavLink to='/showroom/shop'>Магазин</NavLink>
                             <div className="footer__additionally-clothes">
-                                <NavLink to="/">Пальто</NavLink>
-                                <NavLink to="/">Свитеры</NavLink>
-                                <NavLink to="/">Кардиганы</NavLink>
-                                <NavLink to="/">Тостовки</NavLink>
+                                <NavLink to="/showroom/shop">Пальто</NavLink>
+                                <NavLink to="/showroom/shop">Свитеры</NavLink>
+                                <NavLink to="/showroom/shop">Кардиганы</NavLink>
+                                <NavLink to="/showroom/shop">Тостовки</NavLink>
                             </div>
 
                         </div>
-                        <NavLink to='about'>О бренде</NavLink>
-                        <NavLink to='contacts'>Контакты</NavLink>
+                        <NavLink to='/showroom/about'>О бренде</NavLink>
+                        <NavLink to='/showroom/contacts'>Контакты</NavLink>
                     </div>
                     <div className="footer__phone">
                         <div className="footer__phone-number">+7(999)823-54-12</div>

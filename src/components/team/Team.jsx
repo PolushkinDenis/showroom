@@ -1,6 +1,7 @@
 import React from "react";
 import "./Team.css"
 import team from "../../images/team/team.png"
+import { NavLink } from "react-router-dom";
 const Team = () => {
 
     return (
@@ -12,7 +13,7 @@ const Team = () => {
                     <div className="team__about-header">Для каждой</div>
                     <p>Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей.</p>
                     <p>Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.</p>
-                    <a href="/about">Подробнее о бренде</a>
+                    <NavLink to="/showroom/about">Подробнее о бренде</NavLink>
                 </div>
             </div>
 

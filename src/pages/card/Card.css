@@ -1,0 +1,61 @@
+.card {
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.card__empty {
+    margin: 50px 0px 30px;
+    text-align: center;
+}
+.card table {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.card__table-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    /* text-align: justify; */
+}
+
+.card__table-title th {
+    padding-bottom: 26px;
+    border-bottom: 1px solid #CCCCCC; /* Линия под верхним заголовком */
+
+}
+
+.card__table-content {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    
+}
+.content-named {
+    display: flex;
+    align-items: center;
+    margin: 23px 0px 23px;
+}
+
+.content-named button {
+    height: 20px;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    margin-right: 34px;
+}
+
+.content-named img {
+    width: 136px;
+    margin-right: 36px;
+}
+
+.table__color {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.card__table-content td {
+    text-align: center;
+}

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import './ClothersItem.css'
 import { collections } from "../../data/collections";
 import { useLocation } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { addClother } from "../../store/cardSlice";
 
 
 const ClothersItem = () => {
@@ -9,6 +11,10 @@ const ClothersItem = () => {
     const [sizeSelected, setSizeSelected] = useState("")
     const [colorSelected, setColorSelected] = useState("")
     const [count, setCount] = useState(1)
+    const dispatch = useDispatch()
+    const states = useSelector(states => states.card.clothes)
+
+    console.log(states)
 
     const checkCount = (e) => {        
         if(/^\d+$/.test(e.target.value) && e.target.value != 0){
@@ -19,9 +25,24 @@ const ClothersItem = () => {
         }
     }
 
-    console.log(colorSelected)
-    console.log(count)
-    console.log(sizeSelected)
+    const addToCard = () => {
+        console.log("ADD")
+        let cardItem = {
+            id: state.id + state.title + colorSelected + sizeSelected + state.price,
+            title: state.title,
+            img: state.img,
+            price: state.price,
+            color: colorSelected,
+            size: sizeSelected,
+            count
+        }
+        dispatch(addClother(cardItem))
+
+    }
+
+    // console.log(colorSelected)
+    // console.log(count)
+    // console.log(sizeSelected)
 
     return (
         <div className="clothersItem">
@@ -55,7 +76,7 @@ const ClothersItem = () => {
                     </div>
                     <div className="addBasket">
                         <input className="input__count" type="text" value={count} onChange={checkCount}></input>
-                        <button className="btn__add">Добавить в корзину</button>
+                        <button disabled={!(colorSelected && sizeSelected)} className="btn__add" onClick={addToCard}>Добавить в корзину</button>
                     </div>
                 </div>
 

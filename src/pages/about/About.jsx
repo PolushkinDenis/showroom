@@ -3,6 +3,7 @@ import './About.css'
 import first from '../../images/about/first.png'
 import second from '../../images/about/second.png'
 import { useLocation, useNavigate } from "react-router-dom";
+import PageName from "../../components/pageName/PageName";
 
 
 const About = () => {
@@ -16,13 +17,14 @@ const About = () => {
 
     return (
         <div className="about">
-            <h1>О бренде</h1>
+            {/* <h1>О бренде</h1>
             <div className="about__links">
                 <pre className="clothersItem__links-p">
                     <p className="link__main">Главная — </p>
                     <p className="link__secondary">О бренде</p>
                 </pre>
-            </div>
+            </div> */}
+            <PageName name={"О бренде"}/>
             <div className="about__content">
                 <div className="about__content-first">
                     <img src={first} alt="first"></img>
@@ -55,7 +57,7 @@ const About = () => {
                     <img src={second} alt="second"></img>
                 </div>
                 <div className="btn-navigate">
-                    <button onClick={() => navigate('/shop')}>Перейти к магазину</button>
+                    <button onClick={() => navigate('/showroom/shop')}>Перейти к магазину</button>
                 </div>
 
             </div>

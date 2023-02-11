@@ -15,18 +15,18 @@ const Header = () => {
                     <div className={active ? "header_burger header" : "hidden header"} onClick={e => e.stopPropagation()}>
                         <div className="header__home">
                             <img src={header_img} alt="WOMAZING"></img>
-                            <NavLink className="header__title" to='/'>WOMAZING</NavLink>
+                            <NavLink className="header__title" to='/showroom'>WOMAZING</NavLink>
                         </div>
                         <div className="header__links">
-                            <NavLink to='/'>Главная</NavLink>
-                            <NavLink to='/shop'>Магазин</NavLink>
-                            <NavLink to='about'>О бренде</NavLink>
-                            <NavLink to='contacts'>Контакты</NavLink>
+                            <NavLink to='/showroom'>Главная</NavLink>
+                            <NavLink to='/showroom/shop'>Магазин</NavLink>
+                            <NavLink to='/showroom/about'>О бренде</NavLink>
+                            <NavLink to='/showroom/contacts'>Контакты</NavLink>
                         </div>
                         <div className="header__phone">
                             <img className="phone__img" src={telephone}></img>
                             <div className="phone__number">+7(999)823-54-12</div>
-                            <img className="basket" src={basket}></img>
+                            <NavLink to="/showroom/card"><img className="basket" src={basket}></img></NavLink>
                         </div>
                     </div>
             </div>

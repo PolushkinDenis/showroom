@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import './Collection.css'
 import { collections } from "../../data/collections";
 import CollectionItem from "./CollectionItem";
+import { useNavigate } from "react-router-dom";
 
 const Collection = () => {
     const [view, setView] = useState([])
+    const navige = useNavigate()
 
     const swipeImages = (e) => {
         console.log(e)
@@ -45,7 +47,7 @@ const Collection = () => {
                 ))}
             </div>
             <div className="collection__button">
-                <button className="collection__button-btn">Открыть магазин</button>
+                <button onClick={() => navige("/showroom/shop")} className="collection__button-btn">Открыть магазин</button>
             </div>
         </div>
     )
