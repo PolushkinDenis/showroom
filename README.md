@@ -1,5 +1,5 @@
 <h1>Верстка макета магазина одежды на react и sass</h1>
-<p>Github pages: <a href="https://polushkindenis.github.io/showroom" target="_blank"></a></p>
+<p>Github pages: <a href="https://polushkindenis.github.io/showroom" target="_blank">Showroom</a></p>
 <h2>Главная страница</h2>
 <img src="https://github.com/PolushkinDenis/showroom/blob/master/readme/showroom_main.jpg"/>
 <img src="https://github.com/PolushkinDenis/showroom/blob/master/readme/showroom_main_2.jpg"/>
