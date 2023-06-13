@@ -18,7 +18,10 @@ const cardSlice = createSlice({
             }
         },
         deleteClother(state, action) {
-            state.clothes.pop(action.payload)
+            console.log(action.payload.id)
+            const index = state.clothes.findIndex(el => el.id === action.payload.id)
+            console.log(index)
+            state.clothes.splice(index, 1)
         },
         changeCount(state, action) {
             const index = state.clothes.findIndex(el => el.id === action.payload.id)

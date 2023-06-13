@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { changeCount, decrement, increment } from "../../store/cardSlice";
+import { changeCount, decrement, deleteClother, increment } from "../../store/cardSlice";
 import PageName from '../../components/pageName/PageName'
 import './Card.css'
 import { useNavigate } from "react-router-dom";
@@ -15,6 +15,10 @@ const Card = () => {
 
     const changeTotalCount = (e, id) => {
         dispatch(changeCount({ count: e.target.value, id: id }))
+    }
+    const deleteClothes = (id) => {
+        console.log(id)
+        dispatch(deleteClother({id}))
     }
 
     if (clothes.length === 0) {
@@ -48,7 +52,7 @@ const Card = () => {
                         <tr className="card__table-content" >
                             <td >
                                 <div className="content-named">
-                                    <button>x</button>
+                                    <button className="table__btn-delete" onClick={() => deleteClothes(item.id)}>x</button>
                                     <img src={item.img}></img>
                                     <p>{item.title}</p>
 
@@ -57,12 +61,15 @@ const Card = () => {
                             <td>{item.price}</td>
                             <td><div className="table__color" style={{ backgroundColor: item.color }}></div></td>
                             <td>{item.size}</td>
-                            <td><input id={item.id} onChange={e => changeTotalCount(e, item.id)} value={item.count}></input></td>
+                            <td><input className="table__input" id={item.id} onChange={e => changeTotalCount(e, item.id)} value={item.count}></input></td>
                             <td>${item.price.substring(1) * item.count}</td>
                         </tr>
                     </tbody>
                 ))}
             </table>
+            <div>
+
+            </div>
         </div>
     )
 }
